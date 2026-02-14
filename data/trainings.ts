@@ -1,0 +1,38 @@
+export const MOCK_TRAININGS = [
+    {
+        id: '1',
+        title: 'Initiation au Développement Web',
+        provider: 'Orange Digital Center',
+        category: 'Informatique',
+        duration: '3 mois',
+        cost: 'Gratuit',
+        image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80',
+    },
+    {
+        id: '2',
+        title: 'Entrepreneuriat : De l\'idée au projet',
+        provider: 'Jatropha Hub',
+        category: 'Business',
+        duration: '2 semaines',
+        cost: '500 000 GNF',
+        image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2032&q=80',
+    },
+    {
+        id: '3',
+        title: 'Comptabilité pour PME',
+        provider: 'Cabinet Diallo & Partners',
+        category: 'Finance',
+        duration: '1 mois',
+        cost: '1 500 000 GNF',
+        image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2026&q=80',
+    },
+    {
+        id: '4',
+        title: 'Marketing Digital et Réseaux Sociaux',
+        provider: 'Guinée Tech',
+        category: 'Marketing',
+        duration: '6 semaines',
+        cost: '800 000 GNF',
+        image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+    },
+];

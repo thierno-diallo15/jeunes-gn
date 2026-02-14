@@ -4,6 +4,7 @@
     "slug": "jeunes-gn-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "jeunes-gn-mobile",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
