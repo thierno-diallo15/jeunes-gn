@@ -5,12 +5,61 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#10B981", // Green
-        secondary: "#F97316", // Orange
-        neutral: "#64748B", // Gray
-        background: "#F8FAFC", // Light Gray
+        primary: {
+          DEFAULT: "#10B981",
+          50: "#ECFDF5",
+          100: "#D1FAE5",
+          200: "#A7F3D0",
+          300: "#6EE7B7",
+          400: "#34D399",
+          500: "#10B981",
+          600: "#059669",
+          700: "#047857",
+          800: "#065F46",
+          900: "#064E3B",
+        },
+        secondary: {
+          DEFAULT: "#F97316",
+          50: "#FFF7ED",
+          100: "#FFEDD5",
+          200: "#FED7AA",
+          300: "#FDBA74",
+          400: "#FB923C",
+          500: "#F97316",
+          600: "#EA580C",
+          700: "#C2410C",
+          800: "#9A3412",
+          900: "#7C2D12",
+        },
+        neutral: "#64748B",
+        background: "#F8FAFC",
         success: "#22C55E",
         alert: "#EF4444",
+        dark: {
+          DEFAULT: "#0F172A",
+          50: "#F8FAFC",
+          100: "#F1F5F9",
+          200: "#E2E8F0",
+          300: "#CBD5E1",
+          400: "#94A3B8",
+          500: "#64748B",
+          600: "#475569",
+          700: "#334155",
+          800: "#1E293B",
+          900: "#0F172A",
+        },
+      },
+      boxShadow: {
+        'soft': '0 2px 8px rgba(0, 0, 0, 0.04)',
+        'medium': '0 4px 16px rgba(0, 0, 0, 0.08)',
+        'hard': '0 8px 24px rgba(0, 0, 0, 0.12)',
+        'glow-primary': '0 0 20px rgba(16, 185, 129, 0.3)',
+        'glow-secondary': '0 0 20px rgba(249, 115, 22, 0.3)',
+      },
+      borderRadius: {
+        '2xl': '16px',
+        '3xl': '24px',
+        '4xl': '32px',
       },
     },
   },
